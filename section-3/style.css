@@ -27,7 +27,7 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 
@@ -36,9 +36,9 @@ nav {
   /* text-align: center; */
 }
 
-article {
+/* article {
   margin-bottom: 60px;
-}
+} */
 
 .post-header {
   margin-bottom: 40px;
@@ -346,7 +346,8 @@ footer {
   font-style: italic;
 }
 
-.row {
+/*FLEXBOX LAYOUT*/
+/* .row {
   align-items: flex-start;
   display: flex;
   gap: 75px;
@@ -360,5 +361,31 @@ aside {
 article {
   margin-bottom: 0;
   flex: 1;
+} */
+
+/* CSS GRID LAYOUT */
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  align-items: start;
+  row-gap: 60px;
 }
+
+.main-header {
+  grid-column: 1 / -1;
+}
+
+/* article {
+
+}
+
+aside {
+
+} */
+
+footer {
+  grid-column: 1 / -1 ;
+}
+
 
