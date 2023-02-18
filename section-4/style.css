@@ -65,6 +65,7 @@ h1 {
 
 img {
   width: 100%;
+  vertical-align: bottom;
 }
 
 /* FEATURES */
@@ -111,9 +112,9 @@ h3 {
 }
 
 .chair-details li {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 12px; */
   margin-bottom: 24px;
 }
 
